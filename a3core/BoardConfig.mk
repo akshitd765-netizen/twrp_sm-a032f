@@ -31,9 +31,9 @@ TARGET_NO_RADIOIMAGE := true
 # Architecture
 ifeq ($(TARGET_BUILD_64BIT), true)
 # Build 64-bit TWRP
-TARGET_ARCH := arm64
+TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv8-2a
-TARGET_CPU_ABI := arm64-v8a
+TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := cortex-a55
 TARGET_CPU_VARIANT_RUNTIME := cortex-a55
